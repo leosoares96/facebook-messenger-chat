@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Messenger Chat</title>
+    <meta name="author" content="Leonardo Soares (leosoares96)">
+    <meta name="description" content="Messenger em HTML e CSS">
+
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <div class="chat">
+        <div class="chat-topo">
+            <div class="chat-topo-foto">
+                <img src="img/user_01.png" class="chat-foto"/>
+            </div>
+            <div class="chat-topo-text">
+                <h4>Usuário 1</h4>
+                <h5><span class='farol-status farol-green'></span>Online Agora</h5>
+            </div>
+            <div class="chat-topo-icon">
+                    <i class="fas fa-fw fa-video"></i>
+                    <i class="fas fa-fw fa-phone"></i>
+                    <i class="fas fa-fw fa-cog"></i>
+                    <i class="fas fa-fw fa-times"></i>
+            </div>
+        </div>
+        <div class="chat-conversa" id="conversa-usuario1">
+                <div class="msg msg-enviada">
+                    <p>mensagem de enviada de teste</p>
+                </div>
+                <div class="msg msg-recebida">
+                    <p>testando msg reaaaaaa aaaaaa cece ceferf trvrev cebidas</p>
+                </div>
+        </div>
+        <div class="chat-text">
+            <input type="text" id="usuario1" value="" placeholder="Digite uma mensagem..." />
+        </div>
+    </div>
+
+    <div class="chat">
+        <div class="chat-topo">
+            <div class="chat-topo-foto">
+                <img src="img/user_02.png" class="chat-foto"/>
+            </div>
+            <div class="chat-topo-text">
+                <h4>Usuario 02</h4>
+                <h5><span class='farol-status farol-green'></span>Online Agora</h5>
+            </div>
+            <div class="chat-topo-icon">
+                    <i class="fas fa-fw fa-video"></i>
+                    <i class="fas fa-fw fa-phone"></i>
+                    <i class="fas fa-fw fa-cog"></i>
+                    <i class="fas fa-fw fa-times"></i>
+            </div>
+        </div>
+        <div class="chat-conversa">
+                <div class="msg msg-enviada">
+                    <p>mensagem de enviada de teste</p>
+                </div>
+                <div class="msg msg-enviada">
+                    <p>mensagem de testaaaaaa aaaaaaa aaae</p>
+                </div>
+                <div class="msg msg-recebida">
+                    <p>testando msg reaaaaaa aaaaaa cece ceferf trvrev cebidas</p>
+                </div>
+        </div>
+        <div class="chat-text">
+            <input type="text" id="usuario2" placeholder="Digite uma mensagem..." />
+        </div>
+    </div>
+</body>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/funcoes.js"></script>
+</html>

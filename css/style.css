@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #ddd;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #111;
+}
+.chat{
+	width: 300px;
+    height: 400px;
+    float:left;
+    margin: 50px;
+    background-color: #fff;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0px 1px 3px #888;
+}
+.chat-topo{
+    margin: 0%;
+    width: 100%;
+    height: 45px;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: solid 1px #e4e4e4;
+}
+.chat-topo-foto{
+    float: left;
+    width:45px;
+    height: 100%;
+}
+.chat-foto{
+    width:31px;
+    height: 31px;
+    margin: 7px;
+    border-radius: 100%;
+}
+.chat-topo-text{
+    float: left;
+    width:145px;
+    height:100%;
+}
+.chat-topo-icon{    
+    float: left;
+    width:110px;
+    height:100%;
+}
+.chat-topo-icon i{
+    width: 20px;
+    margin:14px 2px 0px 0px;  
+    color: #1e90ff;
+}
+.chat-topo-icon i:hover {  
+    color: #006fdf;
+}
+.chat-topo-text h4{
+    margin:7px 0px 0px 7px;
+    font-size: 13px;
+}
+.chat-topo-text h5{
+    margin: 2px 0px 0px 7px;
+    font-size: 11px;
+    color: #888;
+}
+.farol-status{
+    width:10px;
+    height: 10px;
+    display: block;
+    float:left;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.farol-red{    
+    background-color: #f33;
+}
+.farol-green{    
+    background-color: #3f3;
+}
+.chat-conversa{
+    margin: 0%;
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+    border-bottom: solid 1px rgb(228, 228, 228);
+}
+
+.msg{
+    width: 100%;
+    margin-top:7px;
+    background: #333;
+    font-size: 14px;
+}
+.msg-recebida{
+    padding:7px;
+    float:left;   
+    width: 60%; 
+    border-radius: 0px 12px 12px 12px;
+    background: #ddd;
+    color: #333;
+}
+.msg-enviada{
+    padding:7px;
+    float:right; 
+    width: auto;  
+    max-width: 60%;   
+    border-radius: 12px 12px 0px 12px;
+    background: #1e90ff;
+    color: #fff;
+}
+
+.chat-text{
+    margin: 0%;
+    width: 100%;
+    height: 33px;
+    background: #1e90ff;
+}
+.chat-text input[type="text"]{
+    margin:0px;
+    padding:10px;
+    border: none;
+    height: 33px;
+    width: calc(100% - 20px);
+}
+
